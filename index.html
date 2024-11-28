@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciamento de Tarefas</h1>
+        <nav>
+            <ul>
+                <li><a href="cadastro_usuarios.html">Cadastro de Usuários</a></li>
+                <li><a href="cadastro_tarefas.html">Cadastro de Tarefas</a></li>
+                <li><a href="index.html">Gerenciar Tarefas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tarefas</h2>
+        <div class="task-columns">
+            <!-- Coluna A Fazer -->
+            <div id="todo" class="task-column">
+                <h3>A Fazer</h3>
+                <div class="task-list"></div>
+            </div>
+
+            <!-- Coluna Fazendo -->
+            <div id="doing" class="task-column">
+                <h3>Fazendo</h3>
+                <div class="task-list"></div>
+            </div>
+
+            <!-- Coluna Pronto -->
+            <div id="done" class="task-column">
+                <h3>Pronto</h3>
+                <div class="task-list"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gerenciamento de Tarefas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
